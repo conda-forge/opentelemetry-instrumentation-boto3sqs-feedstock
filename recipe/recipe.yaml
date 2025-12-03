@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-boto3sqs
-  version: "0.59b0"
+  version: "0.60b0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_boto3sqs-${{ version }}.tar.gz
-  sha256: abea7291235f32f824da9ce3fd91e89253f8a71ac3794064045714637967c96c
+  sha256: 21a9d008224e056b87b082ae559234f180ba5600f40853b4ae03e82c3ac2e31d
 
 build:
   number: 0
