@@ -9,6 +9,10 @@ Package license: Apache-2.0
 
 Summary: Boto3 SQS service tracing for OpenTelemetry
 
+Development: https://github.com/open-telemetry/opentelemetry-python-contrib
+
+Boto3 SQS service tracing for OpenTelemetry
+
 Current build status
 ====================
 
